@@ -8,7 +8,5 @@ This theme is based on the Ginkgo's
 TBD
 
 ## License
-
-
 The code in this repository is licensed under version 3 of the AGPL
 unless otherwise noted. Please see the `LICENSE.txt` file for details.

@@ -1,5 +1,8 @@
 @import 'lms/static/sass/partials/base/variables';
 
-$header-bg: rgb(250,0,0);
-$footer-bg: rgb(250,0,0);
-$container-bg: rgb(250,0,0);
+$base-font-color: rgb(60,60,60);
+$btn-brand-background: wheat;
+
+$header-bg: #e2e2ff;
+$footer-bg: $header-bg;
+$container-bg: $header-bg;
