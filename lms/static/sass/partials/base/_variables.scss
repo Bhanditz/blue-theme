@@ -1,8 +1,21 @@
 @import 'lms/static/sass/partials/base/variables';
 
-$base-font-color: rgb(60,60,60);
+$base-font-color: rgb(60, 60, 60);
 $btn-brand-background: wheat;
 
 $header-bg: #e2e2ff;
 $footer-bg: $header-bg;
 $container-bg: $header-bg;
+
+// TODO: I know, I know, not the best place to put this style in.
+//       But I'm fixing this issue right before I catch the plane to the conference!
+body {
+  .header-global .user .user-dropdown {
+    background-color: transparent;
+  }
+
+  .header-global .user > .primary > a {
+    box-shadow: none;
+  }
+}
+
