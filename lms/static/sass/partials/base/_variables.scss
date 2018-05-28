@@ -17,5 +17,9 @@ body {
   .header-global .user > .primary > a {
     box-shadow: none;
   }
+
+  .header-global .primary>a:hover, .header-global .primary>a:focus, .header-global .primary>a:active {
+    background-color: transparent;
+  }
 }
 
